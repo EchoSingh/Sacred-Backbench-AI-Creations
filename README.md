@@ -32,7 +32,7 @@ pip install gradio
 
 ```bash
 git clone https://github.com/aditya26062003/Sacred-Backbench-AI-Creations.git
-cd enhanced-stable-diffusion-xl
+cd Sacred-Backbench-AI-Creations
 ```
 2. Run the Script:
 
