@@ -31,7 +31,7 @@ pip install gradio
 1. Clone the Repository:
 
 ```bash
-git clone https://github.com/your-username/enhanced-stable-diffusion-xl.git
+git clone https://github.com/aditya26062003/Sacred-Backbench-AI-Creations.git
 cd enhanced-stable-diffusion-xl
 ```
 2. Run the Script:
