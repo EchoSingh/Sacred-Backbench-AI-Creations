@@ -1,0 +1,6 @@
+diffusers
+transformers
+torch
+accelerate
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+peft --upgrade
