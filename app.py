@@ -36,7 +36,7 @@ demo = gr.Interface(
     outputs=output_image,
     title="Enhanced Stable Diffusion XL Image Generator",
     description="Generate images using Stable Diffusion XL with custom LoRA weights. Adjust the parameters for different results.",
-    css=".gradio-container {background-color: lightpink} #prompt_div {background-color: #FFD8B4; font-size: 20px;}",
+    css=".gradio-container {background-color: black} #prompt_div {background-color: #FFD8B4; font-size: 20px;}",
 )
 
 demo.launch()
