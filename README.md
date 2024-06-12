@@ -2,6 +2,9 @@
 
 This project provides an interactive user interface to generate images using the Stable Diffusion XL model with custom LoRA weights. The interface is built using Gradio, allowing users to input prompts and adjust various parameters to control the image generation process.
 
+![](URL_to_your_image)
+![](URL_to_your_image)
+
 ## Features
 
 - **Prompt Input**: Enter text prompts to generate images.
