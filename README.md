@@ -52,10 +52,10 @@ Here’s how the interface looks:
 5. Height: Height of the generated image (256-1024).
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE] file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/aditya26062003/Sacred-Backbench-AI-Creations/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
-Diffusers Library
-Gradio Library
-Stable Diffusion
+1. Diffusers Library
+2. Gradio Library
+3. Stable Diffusion
 
