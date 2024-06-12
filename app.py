@@ -23,22 +23,20 @@ def generate_image(prompt, num_inference_steps, guidance_scale, width, height):
     ).images[0]
     return output
 
+prompt = gr.Textbox(lines=2, placeholder="Enter your prompt here...", label="Prompt")
+num_inference_steps = gr.Slider(1, 100, step=1, value=50, label="Inference Steps")
+guidance_scale = gr.Slider(1.0, 20.0, step=0.1, value=7.5, label="Guidance Scale")
+width = gr.Slider(256, 1024, step=64, value=512, label="Width")
+height = gr.Slider(256, 1024, step=64, value=512, label="Height")
+output_image = gr.Image(type="pil", label="Generated Image")
 
-interface = gr.Interface(
+demo = gr.Interface(
     fn=generate_image,
-    inputs=[
-        gr.inputs.Textbox(lines=2, placeholder="Enter your prompt here...", label="Prompt"),
-        gr.inputs.Slider(1, 100, step=1, value=50, label="Inference Steps"),
-        gr.inputs.Slider(1.0, 20.0, step=0.1, value=7.5, label="Guidance Scale"),
-        gr.inputs.Slider(256, 1024, step=64, value=512, label="Width"),
-        gr.inputs.Slider(256, 1024, step=64, value=512, label="Height")
-    ],
-    outputs=gr.outputs.Image(type="pil", label="Generated Image"),
+    inputs=[prompt, num_inference_steps, guidance_scale, width, height],
+    outputs=output_image,
     title="Enhanced Stable Diffusion XL Image Generator",
     description="Generate images using Stable Diffusion XL with custom LoRA weights. Adjust the parameters for different results.",
-    layout="vertical",
-    live=True
+    css=".gradio-container {background-color: lightpink} #prompt_div {background-color: #FFD8B4; font-size: 20px;}",
 )
 
-
-interface.launch()
+demo.launch()
