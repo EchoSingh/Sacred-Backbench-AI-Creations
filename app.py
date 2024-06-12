@@ -2,7 +2,7 @@ import torch
 from diffusers import DiffusionPipeline
 import gradio as gr
 
-# Load the pipeline
+
 pipeline = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16).to("cuda")
 pipeline.load_lora_weights(
     "ntc-ai/SDXL-LoRA-slider.sacred-geometry",
