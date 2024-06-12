@@ -3,7 +3,7 @@
 This project provides an interactive user interface to generate images using the Stable Diffusion XL model with custom LoRA weights. The interface is built using Gradio, allowing users to input prompts and adjust various parameters to control the image generation process.
 
 ![AN ANIME BOY](https://github.com/aditya26062003/Sacred-Backbench-AI-Creations/blob/main/pic1.jpg)
-![A BEAUTIFUL GIRL](https://github.com/aditya26062003/Sacred-Backbench-AI-Creations/blob/main/Pic2.png)
+
 
 ## Features
 
@@ -45,7 +45,7 @@ After running the script, you will see a local URL in the terminal. Open this UR
 
 ## Example
 Here’s how the interface looks:
-
+![A BEAUTIFUL GIRL](https://github.com/aditya26062003/Sacred-Backbench-AI-Creations/blob/main/Pic2.png)
 
 ### Parameters
 1. Prompt: Enter your text prompt here.
