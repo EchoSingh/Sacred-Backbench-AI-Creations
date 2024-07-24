@@ -2,7 +2,7 @@
 
 This project provides an interactive user interface to generate images using the Stable Diffusion XL model with custom LoRA weights. The interface is built using Gradio, allowing users to input prompts and adjust various parameters to control the image generation process.
 
-![AN ANIME BOY](https://github.com/aditya26062003/Sacred-Backbench-AI-Creations/blob/main/pic1.jpg)
+![AN ANIME BOY](https://github.com/EchoSingh/Sacred-Backbench-AI-Creations/blob/main/pic1.jpg)
 
 
 ## Features
@@ -31,7 +31,7 @@ pip install gradio
 1. Clone the Repository:
 
 ```bash
-git clone https://github.com/aditya26062003/Sacred-Backbench-AI-Creations.git
+git clone https://github.com/EchoSingh/Sacred-Backbench-AI-Creations.git
 cd Sacred-Backbench-AI-Creations
 ```
 2. Run the Script:
@@ -45,7 +45,7 @@ After running the script, you will see a local URL in the terminal. Open this UR
 
 ## Example
 Here’s how the interface looks:
-![A BEAUTIFUL GIRL](https://github.com/aditya26062003/Sacred-Backbench-AI-Creations/blob/main/Pic2.png)
+![A BEAUTIFUL GIRL](https://github.com/EchoSingh/Sacred-Backbench-AI-Creations/blob/main/Pic2.png)
 
 ### Parameters
 1. Prompt: Enter your text prompt here.
@@ -55,7 +55,7 @@ Here’s how the interface looks:
 5. Height: Height of the generated image (256-1024).
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/aditya26062003/Sacred-Backbench-AI-Creations/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/EchoSingh/Sacred-Backbench-AI-Creations/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 1. Diffusers Library
